@@ -6,7 +6,7 @@
  * @flow strict-local
  */
 
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import {
   SafeAreaView,
   StyleSheet,
@@ -25,6 +25,7 @@ import {
 } from 'react-native/Libraries/NewAppScreen';
 
 import FlagService from './services/flagService';
+
 const RolloutFlagService = new FlagService();
 
 class App extends Component {
@@ -52,8 +53,9 @@ class App extends Component {
                   Step One
                 </Text>
                 <Text style={styles.sectionDescription}>
-                  Edit <Text style={styles.highlight}>App.js</Text> to change
-                  this screen and then come back to see your edits.
+                  Edit
+                  <Text style={styles.highlight}>App.js</Text> to change this
+                  screen and then come back to see your edits.
                 </Text>
               </View>
             ) : (

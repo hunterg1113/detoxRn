@@ -1,6 +1,7 @@
 module.exports = {
-  bracketSpacing: false,
+  arrowParens: 'avoid',
+  // bracketSpacing: true,
   jsxBracketSameLine: true,
   singleQuote: true,
-  trailingComma: 'all',
+  // trailingComma: 'all',
 };
